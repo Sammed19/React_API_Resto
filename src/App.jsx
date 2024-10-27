@@ -7,6 +7,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Contact from './components/Contact';
+import pasta from './assets/pasta.jpg';
+import sushi from './assets/sushi.jpg';
+import burger from './assets/burger.jpg';
+import pizza from './assets/pizza.jpg';
+import Manchurian from './assets/Manchurian.jpg';
+import Kheer from './assets/Kheer.jpg';
+import friedrice from './assets/friedrice.jpg';
+import vadapav from './assets/vadapav.jpg';
+
 
 const App = () => {
   const [restaurants, setRestaurants] = useState([]);
@@ -48,25 +57,38 @@ const App = () => {
     "A quick stop for the famous Vada Pav."
   ];
 
-  const images = {
-    1: "src/assets/pasta.jpg",
-    2: "src/assets/sushi.jpg",
-    3: "src/assets/burger.jpg",
-    4: "src/assets/pizza.jpg",
-    5: "src/assets/Manchurian.jpg",
-    6: "src/assets/Kheer.jpg",
-    7: "src/assets/friedrice.jpg",
-    8: "src/assets/vadapav.jpg",
-    9: "src/assets/pasta.jpg",
-    10: "src/assets/sushi.jpg",
-    11: "src/assets/burger.jpg",
-    12: "src/assets/pizza.jpg",
-    13: "src/assets/Manchurian.jpg",
-    14: "src/assets/Kheer.jpg",
-    15: "src/assets/friedrice.jpg",
-    16: "src/assets/vadapav.jpg",
+  // const images = {
+  //   1: "src/assets/pasta.jpg",
+  //   2: "src/assets/sushi.jpg",
+  //   3: "src/assets/burger.jpg",
+  //   4: "src/assets/pizza.jpg",
+  //   5: "src/assets/Manchurian.jpg",
+  //   6: "src/assets/Kheer.jpg",
+  //   7: "src/assets/friedrice.jpg",
+  //   8: "src/assets/vadapav.jpg",
+  //   9: "src/assets/pasta.jpg",
+  //   10: "src/assets/sushi.jpg",
+  //   11: "src/assets/burger.jpg",
+  //   12: "src/assets/pizza.jpg",
+  //   13: "src/assets/Manchurian.jpg",
+  //   14: "src/assets/Kheer.jpg",
+  //   15: "src/assets/friedrice.jpg",
+  //   16: "src/assets/vadapav.jpg",
+  // };
+ const images = {
+    1: pasta,
+    2: sushi,
+    3: burger,
+    4: pizza,
+    5: Manchurian,
+    6: Kheer,
+    7: friedrice,
+    8: vadapav,
+    9: pasta,
+    10: sushi,
+    11: burger,
+    12: pizza,
   };
-
   useEffect(() => {
     const fetchRestaurants = async () => {
       try {
