@@ -1,0 +1,23 @@
+/* Navbar.css */
+.navbar {
+    padding: 0rem; /* Adjust padding as needed */
+  }
+  
+  .logo {
+ height: 40px; /* Adjust the height of your logo */
+    width: 120px; 
+    
+  }
+  
+  /* Optional: Customize link styles */
+  .nav-link {
+    color: #333; /* Change link color */
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Change color on hover */
+  }
+   
+  .nav-item{
+    margin: 0 30px;
+  }

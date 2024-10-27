@@ -1,0 +1,27 @@
+/* RestaurantList.css */
+
+.restaurant-list {
+    display: flex; /* Or grid, depending on your layout */
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    justify-content: center;
+    gap:10px; /* Center items */
+  }
+  
+  .card {
+    width: 200px; /* Set the card width */
+    margin: 10px; /* Add some margin around cards */
+    border: 1px solid #ccc; /* Optional: Add a border */
+    border-radius: 5px; /* Optional: Rounded corners */
+    overflow: hidden; /* To prevent overflow from the card */
+ 
+  }
+  
+  .card-img-top {
+    width: 100%; /* Make the image fill the width of the card */
+    height: 120px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+  }
+  
+  .card-text{
+    color:green;
+  }

@@ -1,0 +1,124 @@
+/* Update this in your App.css or appropriate CSS file */
+
+
+/* Centering the gallery */
+.gallery {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(4, 1fr); /* 4 images per row */
+  max-width: 2000; /* Increased for better alignment */
+  margin: 10px auto; /* Centered horizontally */
+  padding: 100px; /* Added padding for spacing */
+  justify-items: center; /* Center items horizontally */
+  
+}
+
+/* Remove any excess margin that may cause a gap at the end */
+.gallery > .restaurant-item {
+  margin: 0; /* Ensure no margin on items */
+}
+
+/* Optional: Adjust this if you want different image sizes based on screen size */
+@media (max-width: 1200px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr); /* 3 images per row on smaller screens */
+  }
+}
+
+@media (max-width: 800px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr); /* 2 images per row on even smaller screens */
+  }
+}
+
+@media (max-width: 500px) {
+  .gallery {
+    grid-template-columns: 1fr; /* 1 image per row on mobile */
+  }
+}
+
+/* Restaurant Item Styles (remains the same) */
+.restaurant-item {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px;
+  transition: transform 0.3s ease;
+  text-align: center; /* Center align text in the item */
+}
+
+.restaurant-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.restaurant-item img:hover {
+  transform: scale(1.05);
+}
+
+.restaurant-item h2 {
+  font-size: 18px;
+  color: #007bff;
+  margin: 10px 0 5px;
+}
+
+.restaurant-item p {
+  color: #666;
+  margin: 0;
+}
+
+/* App.css or any global CSS file */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Centering the search filter container */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 10px auto;
+
+}
+
+/* Styling the input box */
+.search-filter-input {
+  width: 300px; /* Increase width */
+  height: 40px; /* Increase height */
+  font-size: 16px; /* Increase font size */
+  padding: 8px; /* Add padding for more space inside */
+  border-radius: 5px; /* Optional: rounded corners */
+  border: 1px solid #ccc; /* Optional: border styling */
+}
+
+body {
+  background-color: black; /* Set the background color to black */
+  color: white; /* Optional: change text color to white for contrast */
+ 
+}
+
+/* If you want to specifically target your app's main container */
+.App {
+  background-color: black; /* Set the background color to black */
+  min-height: 100vh;
+}
+
+h4,h2, p, a {
+  color: white; /* Set text color to white */
+  text-align: center;
+  text-align: center;
+  margin-bottom: 10px;
+}

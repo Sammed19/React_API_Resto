@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Pasta Paradise",
+      "cuisine": "Italian",
+      "rating": 4.5,
+      "image": "https://www.google.com/imgres?q=pasta%20salad&imgurl=https%3A%2F%2Fwww.allrecipes.com%2Fthmb%2FLUZ2ZXjuWFO-6c_dVuV2y_TUhUQ%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2F14385-pasta-salad-mfs-62-2cbb356b049740e7832e4bbb899881de.jpg&imgrefurl=https%3A%2F%2Fwww.allrecipes.com%2Frecipe%2F14385%2Fpasta-salad%2F&docid=Ss0Mz9SnLRm-vM&tbnid=kC2wDcEBIJrAuM&vet=12ahUKEwjbq_WJqquJAxWQumMGHYCSE3kQM3oECBkQAA..i&w=1500&h=750&hcb=2&itg=1&ved=2ahUKEwjbq_WJqquJAxWQumMGHYCSE3kQM3oECBkQAA" 
+    },
+    {
+      "id": 2,
+      "name": "Sushi Central",
+      "cuisine": "Japanese",
+      "rating": 4.7,
+      "image": "path/to/sushi-central.jpg" 
+    }
+  ]
+  
