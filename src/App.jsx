@@ -4,7 +4,7 @@ import RestaurantList from './components/RestaurantList';
 import SearchFilter from './components/SearchFilter';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/navbar';
+import Navbar from './components/Navbar';
 import About from './components/About';
 import Contact from './components/Contact';
 
