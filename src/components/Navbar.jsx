@@ -3,6 +3,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link if using React Router
 import './Navbar.css'; // Import your custom CSS for Navbar styles
+import logo from 'assets/logo.png';
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
       <div className="container-fluid">
         {/* Logo Section */}
         <Link className="navbar-brand" to="/">
-          <img src="src/assets/logo.png" alt="Logo" className="logo" /> {/* Replace with your logo path */}
+          <img src={logo} alt="Logo" className="logo" /> {/* Replace with your logo path */}
         </Link>
         <button
           className="navbar-toggler"
