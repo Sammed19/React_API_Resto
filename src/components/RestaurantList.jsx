@@ -17,4 +17,4 @@ const RestaurantList = ({ restaurants }) => {
   );
 };
 
-export default RestaurantList;
+export default RestaurantLis
