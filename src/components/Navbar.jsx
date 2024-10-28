@@ -3,7 +3,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link if using React Router
 import './Navbar.css'; // Import your custom CSS for Navbar styles
-import logo from 'assets/logo.png';
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
   return (
